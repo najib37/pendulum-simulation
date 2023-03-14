@@ -1,0 +1,12 @@
+
+CompileFlags:
+    Add:
+        - "--include-directory=./imgui/"
+        - "--include-directory=./imgui/backends/"
+		- "--include-directory=./Users/nramadan/Documents/lib/glfw-lib/include/"
+If:
+    PathExclude: [.*\.c, .*\.h]
+CompileFlags:
+    Add:
+        - "-std=c++17"
+		- "-lglfw"

@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+Makefile.emscripten
+build_win32.bat
+winjunk
